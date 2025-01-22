@@ -29,10 +29,15 @@ Operações básicas:
    
 Para rodar os testes, siga estas instruções:
 
+- Certifique-se de estar na branch feature1:
+git checkout feature1
+
 - Certifique-se de que o pytest está instalado. Caso não esteja, instale-o com o comando:
    pip install pytest
+  
 - No diretório do projeto, execute os testes com:
    pytest
+  
 - Os resultados dos testes serão exibidos no terminal, indicando quais casos passaram ou falharam, além de fornecer detalhes sobre possíveis erros.
 
  #### Benefícios dos Testes
