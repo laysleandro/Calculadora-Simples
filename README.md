@@ -24,21 +24,23 @@ Os testes unitários desenvolvidos verificam:
 
 Operações básicas: 
 - Confirmação de que adição, subtração, multiplicação e divisão retornam os resultados esperados.
-- Divisão por zero: Garantia de que a calculadora lida corretamente com tentativas de divisão por zero, retornando mensagens apropriadas.
-Entradas inválidas: Validação de entradas não numéricas ou fora do esperado.
 
-Como Executar os Testes
+### Como Executar os Testes
+   
 Para rodar os testes, siga estas instruções:
 
 - Certifique-se de que o pytest está instalado. Caso não esteja, instale-o com o comando:
    pip install pytest
-   No diretório do projeto, execute os testes com:
+- No diretório do projeto, execute os testes com:
    pytest
-   Os resultados dos testes serão exibidos no terminal, indicando quais casos passaram ou falharam, além de fornecer detalhes sobre possíveis erros.
+- Os resultados dos testes serão exibidos no terminal, indicando quais casos passaram ou falharam, além de fornecer detalhes sobre possíveis erros.
 
- Benefícios dos Testes
+ ### Benefícios dos Testes
 A inclusão de testes unitários com pytest neste projeto traz diversas vantagens:
 
 - Confiabilidade: Garante que todas as operações funcionem como esperado.
 - Manutenção facilitada: Novas alterações no código podem ser testadas rapidamente para verificar se não introduzem erros.
 - Prevenção de erros comuns: Situações como divisões por zero e entradas inválidas são tratadas antes de se tornarem problemas no uso real da calculadora.
+
+ É possível encontrar esses testes no file : test_calculadora.py 
+
