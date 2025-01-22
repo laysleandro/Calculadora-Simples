@@ -25,7 +25,7 @@ Os testes unitários desenvolvidos verificam:
 Operações básicas: 
 - Confirmação de que adição, subtração, multiplicação e divisão retornam os resultados esperados.
 
-### Como Executar os Testes
+#### Como Executar os Testes
    
 Para rodar os testes, siga estas instruções:
 
@@ -35,7 +35,7 @@ Para rodar os testes, siga estas instruções:
    pytest
 - Os resultados dos testes serão exibidos no terminal, indicando quais casos passaram ou falharam, além de fornecer detalhes sobre possíveis erros.
 
- ### Benefícios dos Testes
+ #### Benefícios dos Testes
 A inclusão de testes unitários com pytest neste projeto traz diversas vantagens:
 
 - Confiabilidade: Garante que todas as operações funcionem como esperado.
