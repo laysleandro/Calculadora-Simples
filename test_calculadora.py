@@ -16,7 +16,7 @@ def test_diferenca():
 
 #teste de multipicacao:
 def test_multiplicacao():
-    assert 20 * 4 == 80
+    assert 25 * 4 == 100
 
 #teste divisao:
 def test_divisao():
