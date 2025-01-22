@@ -38,8 +38,5 @@ def calculadora():
                 print("Erro: divisão por zero não é permitida!")
             else:
                 print(f"Resultado: {num1} / {num2} = {num1 / num2}")
-
-        elif escolha == '5':
-            break
-        else:
-            print("Operação inválida.Tente novamente")
+                
+calculadora()
